@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Roboto Mono", monospace;
+}
+
+.wrapper{
+	width: 100%;
+	background: whitesmoke;
+}
+.registration_form{
+	width: 500px;
+	margin: 40px auto;
+	padding: 50px;
+	border-radius: 20px;
+	border: 2px solid #5e868f;
+	background: ghostwhite;
+}
+.avatar{
+	width: 100%;
+	text-align: center;
+}
+.user{
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+}
+.form-group{
+	width: 100%;
+	margin: 20px 0px;
+}
+.form-group label{
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: 600px;
+}
+.form-group input::placeholder{
+	color: #777;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.particiapnt1{
+	width: 45%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #3b0707;
+    font-size: 14px;
+    border: 1px solid #5e868f;
+}
+.particiapnt1:hover{
+	border: 2px solid black;
+}
+.particiapnt_details{
+	width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #3b0707;
+    font-size: 14px;
+    border: 1px solid #5e868f;
+}
+.particiapnt_details:hover{
+	border: 2px solid black;
+}
+.btn{
+	padding: 14px 36%;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600px;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: -10px;
+	border: 1px solid #f3e13c;
+	background-color: #f3e13c;
+}
+.btn:hover{
+
+}
